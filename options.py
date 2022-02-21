@@ -38,8 +38,8 @@ class MonodepthOptions:
         self.parser.add_argument("--dataset",
                                  type=str,
                                  help="dataset to train on",
-                                 default="kitti",
-                                 choices=["kitti", "kitti_odom", "kitti_depth", "kitti_test"])
+                                 default="scared",
+                                 choices=["kitti", "kitti_odom", "kitti_depth", "kitti_test", "scared"])
         self.parser.add_argument("--discretization",
                                  type=str,
                                  help="disparity discretization method",
